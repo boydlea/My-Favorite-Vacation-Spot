@@ -1,0 +1,142 @@
+C:\Users\leahb\.vscode\index.html
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Beach, Washington - A Family Tradition</title>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h1>Why I Love Long Beach, Washington</h1>
+        <p>A place of family tradition, unforgettable memories, and timeless beauty.</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Long Beach</h2>
+        <p>Every summer for over 10 years, my family and I have traveled to Long Beach, WA with my grandparents, who have been visiting even longer. We camp at a nearby state park, creating memories that last a lifetime.</p>
+    </section>
+
+    <!-- Family Traditions -->
+    <section id="traditions">
+        <h2>Family Traditions</h2>
+        <p>Our tradition started with my grandparents taking my dad and his siblings clam fishing, but as time passed, they now buy clams from Astoria, Oregon. Every trip to Long Beach includes ice cream from Scoopers, shopping in town, and enjoying fish and chips around the campfire.</p>
+    </section>
+
+    <!-- Favorite Spots -->
+    <section id="favorite-spots">
+        <h2>Favorite Spots</h2>
+        <ul>
+            <li><strong>Scoopers Ice Cream:</strong> The family-favorite spot for ice cream, located near the pier.</li>
+            <li><strong>Marshe’s Free Museum:</strong> A quirky museum with curious exhibits like Jake the Alligator Man.</li>
+            <li><strong>Statues Across from Marshe’s:</strong> Giant frying pan, razor clam (that sprays water), and Lewis and Clark statue.</li>
+            <li><strong>Lighthouse Trail:</strong> Though we didn’t finish the hike, the trail offers stunning sunset views.</li>
+        </ul>
+    </section>
+
+    <!-- Why Others Would Love It -->
+    <section id="why-love">
+        <h2>Why You'll Love Long Beach, Too</h2>
+        <p>Long Beach offers a perfect escape for families to create their own traditions, explore, and find fun and curiosity around every corner.</p>
+    </section>
+
+</body>
+</html>
+C:\Users\leahb\.vscode\style.css
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Hero Section */
+#hero {
+    background: url('your-hero-image.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+section p, section ul {
+    font-size: 1em;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    position: relative;
+    padding-left: 20px;
+}
+
+ul li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #f76c6c; /* Customize this color */
+}
+
+/* Footer Styling */
+#why-love {
+    text-align: center;
+    padding: 20px;
+    background: #f8f9fa;
+    border-top: 2px solid #eee;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #hero {
+        padding: 80px 20px;
+    }
+
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
